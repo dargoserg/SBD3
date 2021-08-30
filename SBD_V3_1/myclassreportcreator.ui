@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>myClassReportCreator</class>
+ <widget class="QDialog" name="myClassReportCreator">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1239</width>
+    <height>875</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Тип отчета</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBox"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>Дата начала отчетного периода</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDateEdit" name="dateEdit"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>Дата окончания отчетного периода</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QDateEdit" name="dateEdit_2"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBox">
+         <property name="text">
+          <string>Выбрать группу зарегистрированных</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBox_2"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBox_2">
+         <property name="text">
+          <string>Выбрать район</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBox_3"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBox_3">
+         <property name="text">
+          <string>Выбрать группу диагнозов</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBox_4"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBox_4">
+         <property name="text">
+          <string>Выбрать тип населенного пункта</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBox_5"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBox_5">
+         <property name="text">
+          <string>Текущим годом считать</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox">
+         <property name="minimum">
+          <number>1970</number>
+         </property>
+         <property name="maximum">
+          <number>2100</number>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBox_6">
+         <property name="text">
+          <string>Выбрать врача</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBox_6"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="checkBox_7">
+         <property name="text">
+          <string>Выбрать КДО</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBox_7"/>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTableWidget" name="tableWidget"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
